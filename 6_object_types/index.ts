@@ -1,116 +1,139 @@
-// 1 - void
+// 1 - tipo de objeto para função com interface
 
-function withoutReturn(): void {
-  console.log("Esta função não tem retorno!");
+interface Product {
+  name: string;
+  price: number;
+  isAvailable: boolean;
+}
+function showProductDetails(product: Product) {
+  console.log(
+    `O nome do produto é: ${product.name} e seu preço é R$${product.price}`
+  );
+  if (product.isAvailable) {
+    console.log("O produto está disponível");
+  }
 }
 
-withoutReturn();
+const shirt: Product = {
+  name: "Camisa",
+  price: 19.99,
+  isAvailable: true,
+};
 
-// 2 - callback com argumento
+showProductDetails(shirt);
 
-function greeting(name: string): string {
-  return `Olá ${name}`;
-}
-// função e variavel do tipo string
-function preGreeting(f: (name: string) => string, userName: string) {
-  console.log("Preparando a função!");
-  const greet = f(userName);
-  console.log(greet);
-}
-
-preGreeting(greeting, "Matheus");
-
-// 3 - generic function
-function firstElement<T>(arr: T[]): T {
-  return arr[0];
-}
-console.log(firstElement([1, 2, 3]));
-console.log(firstElement(["a", "b", "c"]));
-console.log(firstElement([false, true, false]));
-
-function mergeObjects<U, T>(obj1: U, obj2: T) {
-  return {
-    ...obj1,
-    ...obj2,
-  };
+// 2 - propriedade opcional em interface
+interface User {
+  email: string;
+  role?: string;
 }
 
-const newObject = mergeObjects({ name: "Matheus" }, { age: "30" });
-
-console.log(newObject);
-
-// 4 - contraints
-
-function biggestNumber<T extends number | string>(a: T, b: T): T {
-  let biggest: T;
-
-  if (+a > +b) {
-    biggest = a;
+function showUserDetails(user: User) {
+  console.log(`O usuário tem o e-mail:`, user.email);
+  if (user.role) {
+    console.log(`A função do usuário é:`, user.role);
   } else {
-    biggest = b;
-  }
-  return biggest;
-}
-console.log("O maior número é o " + biggestNumber(4, 10));
-console.log("O maior número é o " + biggestNumber("5", "10"));
-
-// 5 - especificar tipo de argumento
-
-function mergeArrays<T>(arr1: T[], arr2: T[]) {
-  return arr1.concat(arr2);
-}
-console.log(mergeArrays<number | string>([1, 2, 3], ["a", "b", "c"]));
-//^ permite concatenar diferentes tipos
-
-// 6 - parametros opcionais
-function modernGreeting(name: string, greet?: string) {
-  if (greet) {
-    return `Olá ${greet} ${name}`;
+    console.log(`O usuário não tem uma função`);
   }
 }
 
-console.log(modernGreeting("Matheus"));
-console.log(modernGreeting("Matheus", "caro"));
+const u1: User = { email: "matheus@email.com", role: "Admin" };
+const u2: User = { email: "joão@gmail.com" };
+showUserDetails(u1);
+showUserDetails(u2);
 
-// 7 - parametro default
-function somaDefault(n: number, m = 10): number {
-  return n + m;
-}
-console.log(somaDefault(10));
-console.log(somaDefault(10, 20));
-
-// 8 - unknown
-function doSomething(x: unknown) {
-  if (Array.isArray(x)) {
-    console.log(x);
-  } else if (typeof x === "number") {
-    console.log("X é um número");
-  }
-}
-doSomething([1, 2, 3]);
-doSomething(5);
-
-// 9 - never
-function showErrorMessage(msg: string): never {
-  throw new Error(msg);
+// 3 - readonly
+interface Car {
+  brand: string;
+  readonly wheels: number;
 }
 
-//showErrorMessage("Algum erro!")
+const fusca: Car = {
+  brand: "Volkswagen",
+  wheels: 4,
+};
+console.log(fusca);
 
-// 10 - Rest operator
-// o rest (...) envia quantos parametros vierem
-function sumAll(...n: number[]) {
-  return n.reduce((number, sum) => sum + number);
-  //o reduce soma todos os numeros em um array
+// 4 - index signature
+interface CoordObject {
+  [index: string]: number;
 }
 
-console.log(sumAll(1, 2, 3, 4, 5, 6));
-console.log(sumAll(5, 348, 2348));
+let coords: CoordObject = {
+  x: 10,
+};
+// index é do tipo texto(string) mas os valores
+// que ele pode receber são somente númericos
 
-// 11 - Destructuring como parametro
-function showProductDetails({ name, price }: { name: string, price: number }):string {
-  return `O nome do produto é ${name} e ele custa R$${price}`
+// 5 - Herança (Extending types)
+interface Human {
+  name: string;
+  age: number;
+}
+interface SuperHuman extends Human {
+  superpowers: string[];
+}
+const matheus: Human = {
+  name: "Matheus",
+  age: 30,
+};
+console.log(matheus);
+
+const goku: SuperHuman = {
+  name: "Goku",
+  age: 50,
+  superpowers: ["Kamehameha", "Genki Dama"],
+};
+
+console.log(goku);
+
+// 6 - intersection types
+interface Character {
+  name: string;
 }
 
-const shirt = {name: "Camisa", price: 49.99 }
-console.log(showProductDetails(shirt))
+interface Gun {
+  type: string;
+  caliber: number;
+}
+
+type CharacterWithGun = Character & Gun;
+
+const arnold: CharacterWithGun = {
+  name: "Arnold",
+  type: "Shotgun",
+  caliber: 12,
+};
+
+console.log(arnold);
+
+// 7 - readonly array
+let myArray: ReadonlyArray<string> = ["Maçã", "Laranja", "Banana"];
+// myArray[3] = "Mamão";
+console.log(myArray);
+
+myArray.forEach((item) => {
+  console.log("Fruta: " + item);
+});
+
+myArray = myArray.map((item) => {
+  return `Fruta: ${item}`;
+});
+console.log(myArray);
+
+// 8 - tuplas: determina um item e cada um dos elementos dele
+
+type fiveNumbers = [number, number, number, number, number];
+
+const myNumberArray: fiveNumbers = [1, 2, 3, 4, 5];
+console.log(myNumberArray)
+
+// 9 - tuplas com readonly
+
+function showNumbers(numbers:readonly[number,number]){
+  console.log(numbers[0])
+  console.log(numbers[1])
+}
+showNumbers([1,2])
+
+

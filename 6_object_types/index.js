@@ -1,95 +1,71 @@
 "use strict";
-// 1 - void
-function withoutReturn() {
-    console.log("Esta função não tem retorno!");
+// 1 - tipo de objeto para função com interface
+function showProductDetails(product) {
+    console.log(`O nome do produto é: ${product.name} e seu preço é R$${product.price}`);
+    if (product.isAvailable) {
+        console.log("O produto está disponível");
+    }
 }
-withoutReturn();
-// 2 - callback com argumento
-function greeting(name) {
-    return `Olá ${name}`;
-}
-// função e variavel do tipo string
-function preGreeting(f, userName) {
-    console.log("Preparando a função!");
-    const greet = f(userName);
-    console.log(greet);
-}
-preGreeting(greeting, "Matheus");
-// 3 - generic function
-function firstElement(arr) {
-    return arr[0];
-}
-console.log(firstElement([1, 2, 3]));
-console.log(firstElement(["a", "b", "c"]));
-console.log(firstElement([false, true, false]));
-function mergeObjects(obj1, obj2) {
-    return {
-        ...obj1,
-        ...obj2,
-    };
-}
-const newObject = mergeObjects({ name: "Matheus" }, { age: "30" });
-console.log(newObject);
-// 4 - contraints
-function biggestNumber(a, b) {
-    let biggest;
-    if (+a > +b) {
-        biggest = a;
+const shirt = {
+    name: "Camisa",
+    price: 19.99,
+    isAvailable: true,
+};
+showProductDetails(shirt);
+function showUserDetails(user) {
+    console.log(`O usuário tem o e-mail:`, user.email);
+    if (user.role) {
+        console.log(`A função do usuário é:`, user.role);
     }
     else {
-        biggest = b;
-    }
-    return biggest;
-}
-console.log("O maior número é o " + biggestNumber(4, 10));
-console.log("O maior número é o " + biggestNumber("5", "10"));
-// 5 - especificar tipo de argumento
-function mergeArrays(arr1, arr2) {
-    return arr1.concat(arr2);
-}
-console.log(mergeArrays([1, 2, 3], ["a", "b", "c"]));
-//^ permite concatenar diferentes tipos
-// 6 - parametros opcionais
-function modernGreeting(name, greet) {
-    if (greet) {
-        return `Olá ${greet} ${name}`;
+        console.log(`O usuário não tem uma função`);
     }
 }
-console.log(modernGreeting("Matheus"));
-console.log(modernGreeting("Matheus", "caro"));
-// 7 - parametro default
-function somaDefault(n, m = 10) {
-    return n + m;
+const u1 = { email: "matheus@email.com", role: "Admin" };
+const u2 = { email: "joão@gmail.com" };
+showUserDetails(u1);
+showUserDetails(u2);
+const fusca = {
+    brand: "Volkswagen",
+    wheels: 4,
+};
+console.log(fusca);
+let coords = {
+    x: 10,
+};
+const matheus = {
+    name: "Matheus",
+    age: 30,
+};
+console.log(matheus);
+const goku = {
+    name: "Goku",
+    age: 50,
+    superpowers: ["Kamehameha", "Genki Dama"],
+};
+console.log(goku);
+const arnold = {
+    name: "Arnold",
+    type: "Shotgun",
+    caliber: 12,
+};
+console.log(arnold);
+// 7 - readonly array
+let myArray = ["Maçã", "Laranja", "Banana"];
+// myArray[3] = "Mamão";
+console.log(myArray);
+myArray.forEach((item) => {
+    console.log("Fruta: " + item);
+});
+myArray = myArray.map((item) => {
+    return `Fruta: ${item}`;
+});
+console.log(myArray);
+const myNumberArray = [1, 2, 3, 4, 5];
+console.log(myNumberArray);
+// 9 - tuplas com readonly
+function showNumbers(numbers) {
+    console.log(numbers[0]);
+    console.log(numbers[1]);
 }
-console.log(somaDefault(10));
-console.log(somaDefault(10, 20));
-// 8 - unknown
-function doSomething(x) {
-    if (Array.isArray(x)) {
-        console.log(x);
-    }
-    else if (typeof x === "number") {
-        console.log("X é um número");
-    }
-}
-doSomething([1, 2, 3]);
-doSomething(5);
-// 9 - never
-function showErrorMessage(msg) {
-    throw new Error(msg);
-}
-//showErrorMessage("Algum erro!")
-// 10 - Rest operator
-// o rest (...) envia quantos parametros vierem
-function sumAll(...n) {
-    return n.reduce((number, sum) => sum + number);
-    //o reduce soma todos os numeros em um array
-}
-console.log(sumAll(1, 2, 3, 4, 5, 6));
-console.log(sumAll(5, 348, 2348));
-// 11 - Destructuring como parametro
-function showProductDetails({ name, price }) {
-    return `O nome do produto é ${name} e ele custa R$${price}`;
-}
-const shirt = { name: "Camisa", price: 49.99 };
-console.log(showProductDetails(shirt));
+showNumbers([1, 2]);
