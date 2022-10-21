@@ -143,8 +143,67 @@ class E {
     constructor() {
         this.x = 20;
     }
+    showProtectedX() {
+        console.log("X: " + this.x);
+    }
 }
-const pInstance = new E();
-console.log(pInstance.p);
+class F extends E {
+    showProtectedX() {
+        console.log("X: " + this.x);
+    }
+}
+const eInstance = new E();
+const fInstance = new F();
+eInstance.showProtectedX();
+fInstance.showProtectedX();
 //propriedades protegidas só podem ser acessadas por subclasses
-// exemplo: 
+//e  pela própria classe 
+// 13 - visibilidade: private
+class PrivateClass {
+    constructor() {
+        this.name = "Private";
+    }
+    showName() {
+        return this.name;
+    }
+}
+// propriedades privadas só podem ser acessadas pela própria classe
+const pObj = new PrivateClass();
+// console.log(pObj.name)
+console.log(pObj.showName());
+// 14 - static members
+class StaticMembers {
+}
+StaticMembers.prop = "Teste static";
+//o static permite ao parametro ser utilizado mesmo fora da classe
+console.log(StaticMembers.prop);
+//15 - generic class
+class Item {
+    constructor(first, second) {
+        this.first = first;
+        this.second = second;
+    }
+}
+const newItem = new Item(false, 1);
+console.log(newItem);
+// 16 - parameter properties
+class ParameterProperties {
+    constructor(name, qty, price) {
+        this.name = name;
+        this.qty = qty;
+        this.price = price;
+        this.name = name;
+        this.qty = qty;
+        this.price = price;
+    }
+    get showQty() {
+        return `Quantidade total: ${this.qty}`;
+    }
+    get showPrice() {
+        return `Preço total: R$${this.price}`;
+    }
+}
+const newParameter = new ParameterProperties("vitor", 200, 15);
+console.log(newParameter.name);
+console.log(newParameter.showQty);
+console.log(newParameter.showPrice);
