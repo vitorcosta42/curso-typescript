@@ -1,0 +1,44 @@
+2022-11-11 08:33:45 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:33:45 - [31merror[39m:[31mErro TypeError: colors[Colorizer.allColors[lookup]] is not a function[39m
+2022-11-11 08:40:20 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:40:20 - [31merror[39m:[31mErro TypeError: colors[Colorizer.allColors[lookup]] is not a function[39m
+2022-11-11 08:43:05 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:43:08 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:44:39 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:45:15 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:45:35:4535 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:45:40:4540 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:46:13:4613 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:47:46:4746 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 09:25:54:2554 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:27:18:2718 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:28:07:287 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:29:55:2955 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:30:02:302 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:01:331 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:12:3312 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:45:3345 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:53:3353 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:35:13:3513 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:52:20:5220 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 10:02:38:238 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [@cluster0.movies][39m
+2022-11-11 10:03:17:317 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [Cluster0.movies][39m
+2022-11-11 10:10:40:1040 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [myFirstDatabase.movies][39m
+2022-11-11 11:01:54:154 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:04:06:46 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:04:37:437 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:07:23:723 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:08:01:81 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:11:44:1144 - [31merror[39m: [31mEr Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:13:54:1354 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:17:03:173 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 08:36:16:3616 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 08:59:28:5928 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:00:12:012 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:00:21:021 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:00:58:058 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:01:53:153 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:05:05:55 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:09:00:90 - [31merror[39m: [31mErro no sistema: Operation `movies.findOne()` buffering timed out after 10000ms[39m
+2022-11-14 09:10:32:1032 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:11:14:1114 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m

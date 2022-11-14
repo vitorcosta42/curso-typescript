@@ -1,0 +1,300 @@
+2022-11-11 08:33:45 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:33:45 - [31merror[39m:[31mErro TypeError: colors[Colorizer.allColors[lookup]] is not a function[39m
+2022-11-11 08:40:20 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:40:20 - [31merror[39m:[31mErro TypeError: colors[Colorizer.allColors[lookup]] is not a function[39m
+2022-11-11 08:43:05 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:43:08 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:44:39 - [31merror[39m:[31mNão foi possível conectar[39m
+2022-11-11 08:45:15 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:45:35:4535 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:45:40:4540 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:46:13:4613 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:47:12:4712 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:47:12:4712 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:47:30:4730 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:47:30:4730 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:47:46:4746 - [31merror[39m: [31mNão foi possível conectar[39m
+2022-11-11 08:47:57:4757 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:47:57:4757 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:54:37:5437 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:54:37:5437 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:55:10:5510 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:55:10:5510 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:55:29:5529 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:55:29:5529 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:55:32:5532 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:55:32:5532 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 08:56:06:566 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 08:56:06:566 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:12:30:1230 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:12:30:1230 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:22:19:2219 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:22:19:2219 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:22:30:2230 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:22:30:2230 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:22:52:2252 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:22:52:2252 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:22:56:2256 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:22:56:2256 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:23:25:2325 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:23:25:2325 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:23:30:2330 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:23:30:2330 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:23:39:2339 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:23:39:2339 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:25:54:2554 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:27:18:2718 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:28:07:287 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:29:55:2955 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:30:02:302 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:01:331 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:12:3312 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:45:3345 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:33:53:3353 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:34:53:3453 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:34:53:3453 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:35:00:350 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:35:00:350 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:35:13:3513 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 09:48:26:4826 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 09:48:26:4826 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 09:52:20:5220 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [test.movies][39m
+2022-11-11 10:01:56:156 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:01:56:156 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:02:22:222 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:02:22:222 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:02:33:233 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:02:33:233 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:02:38:238 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [@cluster0.movies][39m
+2022-11-11 10:03:06:36 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:03:06:36 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:03:17:317 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [Cluster0.movies][39m
+2022-11-11 10:04:36:436 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:04:36:436 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:09:42:942 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:09:42:942 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:10:40:1040 - [31merror[39m: [31mErro no sistema: user is not allowed to do action [insert] on [myFirstDatabase.movies][39m
+2022-11-11 10:12:32:1232 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:12:32:1232 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:21:24:2124 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:21:24:2124 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:21:33:2133 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:21:33:2133 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:27:08:278 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:27:08:278 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:28:29:2829 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:28:29:2829 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:28:38:2838 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:28:38:2838 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:28:45:2845 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:28:45:2845 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:29:11:2911 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:29:11:2911 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:29:32:2932 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:29:32:2932 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:30:05:305 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:30:05:305 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:33:12:3312 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:33:12:3312 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:36:41:3641 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:36:41:3641 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:38:46:3846 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:38:46:3846 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:40:14:4014 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:40:14:4014 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:40:19:4019 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:40:19:4019 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:44:07:447 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:44:07:447 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:44:14:4414 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:44:14:4414 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:44:25:4425 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:44:25:4425 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:44:29:4429 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:44:29:4429 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:46:26:4626 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:46:26:4626 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:46:33:4633 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:46:33:4633 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:46:36:4636 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:46:36:4636 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:46:56:4656 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:46:56:4656 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:57:30:5730 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:57:30:5730 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:57:32:5732 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:57:32:5732 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 10:59:45:5945 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 10:59:45:5945 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:00:29:029 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 11:00:29:029 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:01:54:154 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:03:54:354 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 11:03:54:354 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:04:06:46 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:04:37:437 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:07:23:723 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:07:50:750 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 11:07:50:750 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:08:01:81 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:11:39:1139 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 11:11:39:1139 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:11:44:1144 - [31merror[39m: [31mEr Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:12:02:122 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-11 11:12:02:122 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-11 11:13:54:1354 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-11 11:17:03:173 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 08:36:05:365 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:36:05:365 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:36:16:3616 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 08:40:24:4024 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:40:24:4024 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:40:48:4048 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:40:48:4048 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:41:18:4118 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:41:18:4118 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:41:59:4159 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:41:59:4159 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:42:01:421 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:42:01:421 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:42:35:4235 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:42:35:4235 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:42:43:4243 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:42:43:4243 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:57:11:5711 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:57:11:5711 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:59:24:5924 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:59:24:5924 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:59:28:5928 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 08:59:40:5940 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:59:41:5941 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:59:43:5943 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:59:43:5943 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:59:53:5953 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:59:53:5953 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 08:59:59:5959 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 08:59:59:5959 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:00:05:05 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:00:05:05 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:00:10:010 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:00:10:010 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:00:12:012 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:00:21:021 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:00:58:058 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:01:10:110 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:01:10:110 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:01:18:118 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:01:18:118 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:01:47:147 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:01:47:147 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:01:53:153 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:05:05:55 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:05:43:543 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:05:43:543 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:07:25:725 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:07:25:725 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:07:38:738 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:07:38:738 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:07:45:745 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:07:45:745 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:07:49:749 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:07:49:749 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:07:54:754 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:07:54:754 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:08:23:823 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:08:23:823 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:09:00:90 - [31merror[39m: [31mErro no sistema: Operation `movies.findOne()` buffering timed out after 10000ms[39m
+2022-11-14 09:09:16:916 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:09:16:916 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:10:23:1023 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:10:23:1023 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:10:27:1027 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:10:27:1027 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:10:32:1032 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:11:14:1114 - [31merror[39m: [31mErro no sistema: Cast to ObjectId failed for value "636e52d04af2a85357830d4" (type string) at path "_id" for model "Movie"[39m
+2022-11-14 09:13:10:1310 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:13:10:1310 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:13:30:1330 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:13:30:1330 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:17:20:1720 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:17:20:1720 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:17:35:1735 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:17:35:1735 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:17:39:1739 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:17:39:1739 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:18:23:1823 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:18:23:1823 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:18:59:1859 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:18:59:1859 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:19:38:1938 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:19:38:1938 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:20:33:2033 - [35mhttp[39m: [35mGET /api/movies 404 149 - 2.419 ms[39m
+[35m[39m
+2022-11-14 09:21:57:2157 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:21:57:2157 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:22:10:2210 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:22:10:2210 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:22:20:2220 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:22:20:2220 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:23:13:2313 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:23:13:2313 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:23:42:2342 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:23:42:2342 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:23:49:2349 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:23:49:2349 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:24:44:2444 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:24:44:2444 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:24:56:2456 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:24:56:2456 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:25:02:252 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:25:02:252 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:27:34:2734 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:27:34:2734 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:28:02:282 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:28:02:282 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:28:07:287 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:28:07:287 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:28:18:2818 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:28:18:2818 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:30:48:3048 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:30:48:3048 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:31:11:3111 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:31:11:3111 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:31:16:3116 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:31:16:3116 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:31:37:3137 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:31:37:3137 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:32:09:329 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:32:09:329 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:34:02:342 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:34:02:342 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:34:07:347 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:34:07:347 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:34:40:3440 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:34:40:3440 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:34:56:3456 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:34:56:3456 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:35:17:3517 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:35:17:3517 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:37:03:373 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:37:03:373 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:37:19:3719 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:37:19:3719 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:37:36:3736 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:37:36:3736 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:37:40:3740 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:37:40:3740 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:40:22:4022 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:40:22:4022 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:40:27:4027 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:40:27:4027 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:42:49:4249 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:42:49:4249 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:43:45:4345 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:43:45:4345 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:44:09:449 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:44:09:449 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:44:13:4413 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:44:13:4413 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m
+2022-11-14 09:45:39:4539 - [32minfo[39m: [32mConectou ao banco de dados![39m
+2022-11-14 09:45:39:4539 - [32minfo[39m: [32mAplicação está funcionando na porta: 3000[39m

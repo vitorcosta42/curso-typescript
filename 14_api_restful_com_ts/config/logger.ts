@@ -17,7 +17,7 @@ const level = () => {
 const colors = {
   error: "red",
   warn: "yellow",
-  info: "",
+  info: "green",
   http: "magenta",
   debug: "white",
 };
@@ -26,11 +26,11 @@ winston.addColors(colors);
 
 const format = winston.format.combine(
   winston.format.timestamp({
-    format: "YYYY-MM-DD HH:mm:ss",
+    format: "YYYY-MM-DD HH:mm:ss:ms",
   }),
   winston.format.colorize({ all: true }),
   winston.format.printf(
-    (info) => `${info.timestamp} - ${info.level}:${info.message}`
+    (info) => `${info.timestamp} - ${info.level}: ${info.message}`
   )
 );
 
@@ -44,10 +44,10 @@ const transports = [
 ];
 
 const Logger = winston.createLogger({
-    level: level(),
-    levels,
-    format,
-    transports
-})
+  level: level(),
+  levels,
+  format,
+  transports,
+});
 
 export default Logger;

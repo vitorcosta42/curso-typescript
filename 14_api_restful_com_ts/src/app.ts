@@ -9,13 +9,19 @@ const app = express();
 
 // JSON middleware
 app.use(express.json());
-app.use("/api/", router);
 
 // DB
 import db from "../config/db";
 
-//Loger 
-import Logger from "../config/logger"
+//Logger
+import Logger from "../config/logger";
+
+// Middlewares
+import morganMiddleware from "./middleware/morganMiddleware";
+
+app.use("/api/", router);
+
+app.use(morganMiddleware);
 
 //app port
 const port = config.get<number>("port");
